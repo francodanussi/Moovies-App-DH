@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    tools:context=".view.Login"
+    android:layout_height="match_parent"
+    android:background="#26a69a"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginBottom="200dp"
+        android:gravity="center">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/logo2"
+        android:layout_gravity="center"
+        android:id="@+id/logo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MOOVIES"
+        android:textColor="#ffffff"
+        android:textSize="50dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom"
+        android:layout_marginTop="250dp">
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TextInputLayoutNombre"
+            android:background="#000000"
+            android:textColorHint="#ffffff">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:hint="@string/user_name"
+                android:textSize="30dp"
+                android:textColorHint="#ffffff"
+                android:textColor="#ffffff"
+                android:id="@+id/editTextNombreUsuario"
+                android:background="#000000"
+                />
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TextInputLayoutpassword"
+            android:background="#000000"
+            android:textColorHint="#ffffff">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:textSize="30dp"
+                android:hint="Contraseña"
+                android:id="@+id/editTextPassword"
+                android:background="#000000"
+                android:textColorHint="#ffffff"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/LoginBotonEnter"
+            android:text="Log In"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:onClick="EntrarAMoovie"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

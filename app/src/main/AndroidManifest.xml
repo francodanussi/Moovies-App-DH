@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="a3.m1mo.mobjav.a816.myapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".view.Login" />
+        <activity
+            android:name=".view.MainScreenPelicula"
+
+            android:label="Peliculas" />
+
+        <activity
+            android:name=".view.MainScreenSerie"
+            android:label="Series" />
+
+        <activity android:name=".view.PantallaInicio">
+
+        </activity>
+        <activity
+            android:name=".view.FavoriteActivityTotal"
+            android:label="Favorite" />
+
+        <activity android:name=".view.ActivityDetallePelicula"
+            android:label="DetallePelicula"/>
+        <activity
+            android:name=".view.WatchLaterActivity"
+            android:label="WatchLater" />
+
+        <activity
+            android:name=".view.MainScreenDocumental"
+            android:label="Documental" />
+        <activity
+            android:name=".view.MainScreenTrending"
+            android:label="Trending" />
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="69fc8ab124822f8c06089950fadc55dd595604bb" />
+
+        <activity android:name=".view.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

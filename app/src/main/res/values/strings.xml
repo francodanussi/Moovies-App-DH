@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Moovies</string>
+    <string name="user_name">Nombre de Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="enter">Entrar</string>
+
+    <string name="holadrawer1">holadrawer1</string>
+
+    <string name="holadrawer2">holadrawer2</string>
+    <string name="HeaderTracktv">Content-Type: application/json
+Trakt-api-version: 2
+Trakt-api-key:
+05d930c81b4499cf76c38e67040db490d3300d3674f809e6395446bf3954218d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

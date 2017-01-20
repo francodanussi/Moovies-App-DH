@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:id="@+id/celda_serie"
+    android:paddingTop="2dp"
+    android:paddingBottom="2dp"
+    android:paddingLeft="2dp"
+    android:paddingRight="2dp"
+    android:background="#d8000000"
+    >
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageViewImagenSerie"
+        android:scaleType="centerCrop"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#cf000000"
+        android:layout_gravity="bottom"
+        >
+
+        <TextView
+            android:padding="5dp"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewTituloSerie"
+            android:text="Titulo"
+            android:textSize="10dp"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="7dp" />
+
+        <TextView
+            android:padding="5dp"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewRatingSerie"
+            android:text="Genero"
+            android:textSize="8dp"
+            android:textColor="#ffca28"/>
+
+    </LinearLayout>
+
+
+</FrameLayout>

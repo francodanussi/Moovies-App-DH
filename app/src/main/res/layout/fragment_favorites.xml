@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragment.FragmentRecyclerFavoriteTotal"
+    android:background="#000000"
+    android:padding="15dp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Favorites"
+        android:textSize="20dp"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="Peliculas"
+        android:textColor="#ffffff"
+        android:layout_marginTop="5dp"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:id="@+id/recyclerView_pelicula_Favorite"
+        android:layout_marginTop="5dp">
+
+
+    </android.support.v7.widget.RecyclerView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="Series"
+        android:textColor="#ffffff"/>
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/recyclerView_serie_Favorite">
+
+        </android.support.v7.widget.RecyclerView>
+
+
+</LinearLayout>

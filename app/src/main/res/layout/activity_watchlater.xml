@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/aca_va_el_fragment_watchlater1"
+    tools:context=".view.FavoriteActivityTotal"
+    android:background="#000000">
+
+    <android.support.v4.widget.DrawerLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/WatchLaterDrawerLayout"
+        xmlns:app="http://schemas.android.com/apk/res-auto">}
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/aca_va_el_fragment_watchlater">
+        </FrameLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:id="@+id/recycler_view_watch_later_peliculas">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:id="@+id/recycler_view_watch_later_series">
+
+    </android.support.v7.widget.RecyclerView>
+
+        <android.support.design.widget.NavigationView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity = "left"
+            app:menu = "@menu/navigation_menu_view"
+            android:id="@+id/IDNavigationView"
+            android:background="@drawable/fondovaaca"
+            app:itemTextColor="#ffffff"
+            app:itemIconTint="#ffffff">
+
+        </android.support.design.widget.NavigationView>
+
+    </android.support.v4.widget.DrawerLayout>
+
+</LinearLayout>

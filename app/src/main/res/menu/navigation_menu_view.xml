@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/gp_one" android:checkableBehavior="single">
+
+
+        <item android:title="Peliculas"
+              android:icon="@drawable/videocamera"
+              android:id="@+id/IDNavigationViewPeliculas"></item>
+
+        <item android:title="Series"
+              android:icon="@drawable/frame"
+              android:id="@+id/IDNavigationViewSeries"></item>
+
+        <item android:title="Trending"
+            android:icon="@drawable/fire"
+            android:id="@+id/IDNavigationViewTrending"></item>
+
+        <item android:title="Documental"
+            android:icon="@drawable/list"
+            android:id="@+id/IDNavigationViewDocumental"></item>
+
+        <item android:title="Favoritos"
+              android:icon="@drawable/estrellafavoritos"
+              android:id="@+id/IDNavigationViewFavoritos"></item>
+
+        <item android:title="WatchLater"
+            android:icon="@drawable/ic_query_builder_black_24dp"
+            android:id="@+id/IdNavigationViewWatchLater"
+            ></item>
+
+
+    </group>
+
+    <group android:id="@+id/grp2" android:checkableBehavior="single" >
+        <item
+            android:id="@+id/navigation_item_2"
+            android:icon="@drawable/home_black"
+            android:title="About Us" />
+    </group>
+
+</menu>
